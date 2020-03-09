@@ -1,4 +1,4 @@
-class EmailParser
+class EmailAddressParser
 
   attr_accessor :emails
 
@@ -16,6 +16,6 @@ class EmailParser
 end
 
 emails = "ravenclaw88@hogwarts.org, malfoymanor@riddleshouse.net"
-parser = EmailParser.new(emails)
+parser = EmailAddressParser.new(emails)
 
 puts parser.parse
